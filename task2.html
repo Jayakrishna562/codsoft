@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Landing Page</title>
+<style>/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #007bff;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #fff;
+    color: #007bff;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Services Section */
+#services {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#services h2 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.service-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    min-width: 250px;
+}
+
+.service-box h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.service-box p {
+    font-size: 1em;
+}
+
+/* About Section */
+#about {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#about h2 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #007bff;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 1em;
+}
+</style></head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Welcome to Our Website</h1>
+            <p>We offer the best services for your needs</p>
+            <a href="#services" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-container">
+            <div class="service-box">
+                <h3>Web Design</h3>
+                <p>Responsive and user-friendly web designs tailored to your business needs.</p>
+            </div>
+            <div class="service-box">
+                <h3>Development</h3>
+                <p>High-quality development to bring your ideas to life with the latest technologies.</p>
+            </div>
+            <div class="service-box">
+                <h3>SEO Optimization</h3>
+                <p>Boost your visibility online with our top-notch SEO services.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a team of passionate professionals dedicated to helping your business succeed. Our team focuses on creating impactful and lasting digital experiences that drive results.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to get started, feel free to reach out!</p>
+        <a href="mailto:contact@website.com" class="cta-button">Email Us</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Landing Page Project. All rights reserved.</p>
+    </footer>
+</body>
+</html>
